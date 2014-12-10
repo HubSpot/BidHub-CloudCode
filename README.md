@@ -22,7 +22,7 @@ Scheduling the job should result in the screen below. Click Run Now to run the j
 
 Now, if you go to Data (on the left), you should see the Item and NewBid tables. Item will be populated with a Test Object, and both will have a number of auction-related columns.
 
-![Item and NewBid](http://i.imgur.com/2qFxj7jm.png
+![Item and NewBid](http://i.imgur.com/2qFxj7jm.png)
 
 ## Adding Items
 The easiest way to add an item is directly from Parse. Go to Core > Data > Item and add either a single item via the +Row button or many items via a CSV import.
