@@ -24,12 +24,15 @@ Now, if you go to Data (on the left), you should see the Item and NewBid tables.
 
 <img src="http://i.imgur.com/2qFxj7j.png" alt="Drawing" style="width: 150px;"/>
 
+## Adding Items
+The easiest way to add an item is directly from Parse. Go to Core > Data > Item and add either a single item via the +Row button or many items via a CSV import.
+
 ## Data Models
-That's it! You're all set up, and you can go play with the iOS and Android apps now. If you're interested in the data models and how they're set up, however, read on.
+That's it! You're all set up, and you can go play with the iOS and Android apps now. If you're interested in the data models, read on for a short description.
 
 ### Item
 
-Represents a thing or service for sale. The easiest way to add these is directly from Parse (either via the +Row button or via a CSV import).
+Represents a thing or service for sale. 
 
  * `allBidders` email addresses of everyone who has bid on this item
  * `closetime` after this time, bidding is closed
