@@ -1,7 +1,7 @@
 # FlappyBid: Cloud Code Backend
 Backend code for HubSpot's open-source silent auction app. For an overview of the auction app project, [check out our blog post about it](http://dev.hubspot.com/coming-soon)!
 
-The iOS and Android auction apps are backed by [Parse](https://parse.com/), a popular and free backend-as-a-service. Parse handles the database, and also allows you to add server-side logic that occurs when an action is taken (such as a client posting a new bid). This repository contains all of that server-side logic, as well as this helpful README that'll get you set up with Parse.
+The [iOS](https://github.com/HubSpot/FlappyBid-iOS) and [Android](https://github.com/HubSpot/FlappyBid-Android) auction apps are backed by [Parse](https://parse.com/), a popular and free backend-as-a-service. Parse handles the database, and also allows you to add server-side logic that occurs when an action is taken (such as a client posting a new bid). This repository contains all of that server-side logic, as well as this helpful README that'll get you set up with Parse.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Now, if you go to Data (on the left), you should see the Item and NewBid tables.
 The easiest way to add an item is directly from Parse. Go to Core > Data > Item and add either a single item via the +Row button or many items via a CSV import.
 
 ## Data Models
-That's it! You're all set up, and you can go play with the iOS and Android apps now. If you're interested in the data models, read on for a short description.
+That's it! You're all set up, and you can go play with the [iOS](https://github.com/HubSpot/FlappyBid-iOS) and [Android](https://github.com/HubSpot/FlappyBid-Android) apps now. If you're interested in the data models, read on for a short description.
 
 ### Item
 
