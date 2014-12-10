@@ -1,5 +1,5 @@
 # FlappyBid: Cloud Code Backend
-Backend code for HubSpot's open-source silent auction app. For an overview of this project, [check out our blog post about it](http://dev.hubspot.com/coming-soon)!
+Backend code for HubSpot's open-source silent auction app. For an overview of the auction app project, [check out our blog post about it](http://dev.hubspot.com/coming-soon)!
 
 The iOS and Android auction apps are backed by [Parse](https://parse.com/), a popular and free backend-as-a-service. Parse handles the database, and also allows you to add server-side logic that occurs when an action is taken (such as a client posting a new bid). This repository contains all of that server-side logic, as well as this helpful README that'll get you set up with Parse.
 
