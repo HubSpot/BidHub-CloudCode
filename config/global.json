@@ -1,11 +1,11 @@
 {
     "applications": {
-        "AuctionAppDemo": {
-            "applicationId": "kLPIfZauqDvVIhDOzAEVrVHJh5zMYsUvjRgcpdr4",
-            "masterKey": "kd0QLargOmzxvkYkAotAcLjFbsfjNXwACWsbb66Z"
+        "<your app name>": {
+            "applicationId": "<your app id>",
+            "masterKey": "<your master key>"
         }, 
         "_default": {
-            "link": "AuctionAppDemo"
+            "link": "<your app name>"
         }
     }, 
     "global": {
