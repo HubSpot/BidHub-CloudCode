@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "AuctionAppDemo": {
+            "applicationId": "kLPIfZauqDvVIhDOzAEVrVHJh5zMYsUvjRgcpdr4",
+            "masterKey": "kd0QLargOmzxvkYkAotAcLjFbsfjNXwACWsbb66Z"
+        }, 
+        "_default": {
+            "link": "AuctionAppDemo"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.1"
+    }
+}
