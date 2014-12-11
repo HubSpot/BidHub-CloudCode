@@ -28,7 +28,7 @@ Now, if you go to Data (on the left), you should see the Item and NewBid tables.
 The easiest way to add an item is directly from Parse. Go to Core > Data > Item and add either a single item via the +Row button or many items via a CSV import.
 
 ## Data Models
-That's it! You're all set up, and you can go play with the [iOS](https://github.com/HubSpot/FlappyBid-iOS) and [Android](https://github.com/HubSpot/FlappyBid-Android) apps now. If you're interested in the data models, read on for a short description.
+That's it! You're all set up, and you can go play with the [iOS](https://github.com/HubSpot/FlappyBid-iOS) and [Android](https://github.com/HubSpot/FlappyBid-Android) apps now. You can also grab the [Web Panel](https://github.com/HubSpot/BidHub-WebAdmin) to keep an eye on the auction. If you're interested in the data models, read on for a short description.
 
 ### Item
 
