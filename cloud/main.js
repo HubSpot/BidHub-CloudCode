@@ -31,6 +31,16 @@ Parse.Cloud.beforeSave("NewBid", function(request, response) {
 				return;
 			}
 
+			// Make sure the bid increments by at least the minimum increment
+            minIncrement = item.get("priceIncrement");
+            if (!minIncrement) {
+                minIncrement = 1;
+            }
+			if (currentBid.get("amt") < (item.get("currentPrice") + minIncrement )) {
+				response.error("You need to raise the current price by at least $" + minIncrement);
+				return;
+			}
+
 			// Sanity check. In-house testing revealed that people love bidding one trillion dollars.
 			if (currentBid.get("amt") > 99999) {
 				response.error("Remind me to apply for your job.");
