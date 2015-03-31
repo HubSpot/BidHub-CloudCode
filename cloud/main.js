@@ -270,6 +270,7 @@ Parse.Cloud.job("InitializeForAuction", function(request, status) {
 	item.set("description", "This is a test object, and you (probably) won't be asked to donate your bid on this item to charity. Who knows, though.");
 	item.set("donorname", "Generous Donor");
 	item.set("price", 50);
+    item.set("priceIncrement", 1);
 	item.set("imageurl", "http://i.imgur.com/kCtWFwr.png");
 	item.set("qty", "3");
 	item.set("currentPrice", []);
